@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Голосование за презентации</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Студенческая научная конференция</h1>
+    <h2>Оцените презентации:</h2>
+    <ul>
+        <li>
+            <p>Презентация 1</p>
+            <input type="number" min="1" max="10" placeholder="Оценка" id="rating1">
+            <button onclick="vote(1)">Голосовать</button>
+        </li>
+        <li>
+            <p>Презентация 2</p>
+            <input type="number" min="1" max="10" placeholder="Оценка" id="rating2">
+            <button onclick="vote(2)">Голосовать</button>
+        </li>
+        <!-- Добавьте другие презентации по аналогии -->
+    </ul>
+    <div id="message"></div>
+    <script src="script.js"></script>
+</body>
+</html>
